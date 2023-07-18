@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav section start from here */
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.nav-title img {
+    width: 70px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.word-color {
+    color: #ff42a5;
+}
+
+.nav-manu {
+    display: flex;
+}
+
+.nav-manu li {
+    list-style: none;
+    
+}
+
+.nav-manu a {
+    text-decoration: none
+ 
+}
