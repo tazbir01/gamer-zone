@@ -173,33 +173,68 @@ main {
 
 /* play instantly start from here */
 
-.play-instant-container{
+.play-instant-container {
     display: flex;
     align-items: center;
 }
-.play-instant-content{
+
+.play-instant-content {
     text-align: end;
     width: 50%;
     padding-right: 50px;
     padding-left: 200px;
 }
-.play-instant-images{
+
+.play-instant-images {
     width: 50%;
 }
-.play-instant-image-1{    
+
+.play-instant-image-1 {
     width: 460px;
     height: 470px;
     margin-left: 100px;
 }
-.play-instant-image-2{
+
+.play-instant-image-2 {
     width: 250px;
     height: 270px;
     position: relative;
     top: -200px;
 }
-.word-play{
+
+.word-play {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* this is for button section */
+
+.buttons img{
+    width: 35px;
+
+}
+
+.buttons button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 0;
+    background-color: #FFF;
+
+    color: #0B0223;
+font-size: .8rem;
+font-weight: 600;
+}
+.button-row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.btn-hover :hover{
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    color: #FF42A5;
 }
