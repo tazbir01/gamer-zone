@@ -7,6 +7,18 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+/* shared section */
+
+.btn-primary{
+    color: #FFF;
+font-size: .8rem;
+font-weight: 600;
+border-radius: 48px;
+background: #FF42A5;
+padding: 15px 30px;
+border: 0;
+}
+
 /* nav section start from here */
 
 .nav-container {
@@ -49,15 +61,26 @@ body {
 
 .banner{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    margin: 0 150px;
+    /* margin: 0 150px; */
+}
+
+.banner-container{
+    background-image: url(../images/group-14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-content{
+    align-items: center;
     
 }
-
 .banner-title-1{
 font-size: 2rem;
 font-weight: 600;
@@ -66,10 +89,22 @@ font-weight: 600;
 .banner-title-2{
 font-size: 4rem;
 font-weight: 800;
-
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+
+.banner-list{
+    color: #534C64;
+font-size: 1rem;
+font-weight: 500;
+margin-top: 20px;
+margin-bottom: 25px;
+}
+
+.btn-go-rogue{
+    background: #4EC5F7;
+    margin-left: 15px;
 }
 
 .banner-image > img {
