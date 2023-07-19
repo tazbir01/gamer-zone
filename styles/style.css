@@ -39,7 +39,7 @@ body {
     align-items: center;
 }
 
-.nav-title {
+.logo {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -47,7 +47,7 @@ body {
     font-weight: 700;
 }
 
-.nav-title img {
+.logo img {
     width: 75px;
     height: 35px;
     object-fit: cover;
@@ -211,12 +211,12 @@ main {
 
 /* this is for button section */
 
-.buttons img{
+.buttons img {
     width: 35px;
 
 }
 
-.buttons button{
+.buttons button {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -224,17 +224,72 @@ main {
     background-color: #FFF;
 
     color: #0B0223;
-font-size: .8rem;
-font-weight: 600;
+    font-size: .8rem;
+    font-weight: 600;
 }
-.button-row{
+
+.button-row {
     display: flex;
     justify-content: space-around;
     margin-top: 25px;
 }
 
-.btn-hover :hover{
+.btn-hover :hover {
     border: 1px solid #FF42A5;
     border-radius: 50px;
     color: #FF42A5;
+}
+
+/* footer starts here */
+
+footer {
+    background: #0B0223;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* max-width: 800px; */
+    /* margin: auto; */
+}
+
+.footer-manus {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-icons a {
+    margin: 10px;
+}
+
+.footer-manus li {
+    list-style: none;
+}
+
+.footer-terms-and-condition a {
+    margin: 10px;
+}
+
+.footer-terms-and-condition {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-manus a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer-terms-and-condition a, .footer-container p{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
 }
